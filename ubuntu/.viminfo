@@ -8,8 +8,9 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q
+:w
+:wq
 
 # Search String History (newest to oldest):
 
@@ -22,21 +23,23 @@
 # Registers:
 
 # File marks:
-'0  1  27  /home/one.txt
+'0  1  52  /home/one.txt
 '1  1  0  /home/one.txdt
+'2  1  0  /home/one.txdt
 
 # Jumplist (newest first):
--'  1  27  /home/one.txt
+-'  1  52  /home/one.txt
+-'  1  0  /home/one.txdt
 -'  1  0  /home/one.txdt
 -'  1  0  /home/one.txdt
 
 # History of marks within files (newest to oldest):
 
 > /home/one.txt
-	"	1	27
-	^	1	28
-	.	1	27
-	+	1	27
+	"	1	52
+	^	1	53
+	.	1	52
+	+	1	52
 
 > /home/one.txdt
 	"	1	0
